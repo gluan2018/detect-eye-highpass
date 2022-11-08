@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\gluan\Documents\Projetos\Camera\opencv\.cxx\Debug\4z6815v5\armeabi-v7a'
+ninja: no work to do.
