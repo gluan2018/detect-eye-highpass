@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         override fun onCameraFrame(inputFrame: CameraBridgeViewBase.CvCameraViewFrame): Mat {
-            val gray = inputFrame.rgba()
+            val gray = inputFrame.gray()
 
             classifier?.apply {
                 detectMultiScale(gray, eyeDetect)
